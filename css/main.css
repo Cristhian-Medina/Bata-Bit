@@ -1,0 +1,23 @@
+:root {
+    --font-family-primary: font-family: 'DM Sans', sans-serif;
+    --font-family-secondary: font-family: 'Inter', sans-serif;
+}
+
+/* 
+1. Posicionamiento
+2. Modelo caja (tamaños, margenes, padding)
+3. Tipografía
+4. Visuales (colores, bordes, sombra)
+5. Otros 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-family-primary);
+}
