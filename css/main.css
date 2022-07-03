@@ -360,6 +360,10 @@ main {
     background-image: url('../assets/icons/check-circle.svg');
 }
 
+.close {
+    background-image: url('../assets/icons/close.svg');
+}
+
 .product--card-title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -523,6 +527,50 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
+}
+
+.modal-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal--card {
+    width: 70%;
+    min-width: 190px;
+    max-width: 400px;
+    height: 250px;
+    font-family: var(--font-family-secondary);
+    color: var(--black);
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.modal--card-title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modal--card-description {
+    padding-top: 20px;
+    font-size: 1.4rem;
+    color: #757575;
+    margin: 0 10px;
+}
+
+.modal-container .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* ---- Footer ---- */
